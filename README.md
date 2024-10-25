@@ -26,17 +26,12 @@ SneakyPanel supports a wide array of games by utilizing Docker containers to iso
 
 Some of the core games we support include:
 
-- **Minecraft** (including Paper, Sponge, Bungeecord, Waterfall, and more)
-- **FiveM**
-- **Rust**
-- **Terraria**
-- **Teamspeak**
-- **Mumble**
-- **Team Fortress 2**
-- **Counter Strike: Global Offensive**
-- **CS2**
-- **Garry's Mod**
-- **ARK: Survival Evolved**
+ None at the moment, as we are just starting, but we do plan on supporting the following:
+
+    - Minecraft
+    - FiveM
+    - Coding Languages, such as JavaScript and Python
+    - Counter-Strike: 2
 
 ## License
 
