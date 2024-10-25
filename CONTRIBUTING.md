@@ -1,31 +1,19 @@
 # Contributing
 
-Pterodactyl does not accept Pull Requests (PRs) _for new functionality_ from users that are not currently part of the
-core project team. It has become overwhelming to try and give the proper time and attention that such complicated PRs
-tend to require — and deserve. As a result, it is in the project's best interest to limit the scope of work on
-new functionality to work done within the core project team.
+SneakyPanel does not accept Pull Requests (PRs) for new functionality from users who are not part of the core project team. It has become overwhelming to allocate the necessary time and attention that complex PRs require and deserve. Therefore, to maintain the project's quality, we limit the scope of new functionality to work done by the core project team.
 
-PRs that address existing _bugs_ with a corresponding issue opened in our issue tracker will continue to be accepted
-and reviewed. Their scope is often significantly more targeted, and simply improving upon existing and well defined
-logic.
+PRs that address existing bugs, along with a corresponding issue opened in our issue tracker, will continue to be accepted and reviewed. These PRs typically have a more focused scope and aim to improve upon existing, well-defined logic.
 
 ### Responsible Disclosure
 
-This is a fairly in-depth project and makes use of a lot of parts. We strive to keep everything as secure as possible
-and welcome you to take a look at the code provided in this project yourself. We do ask that you be considerate of
-others who are using the software and not publicly disclose security issues without contacting us first by email.
+Given the complexity of this project and its many components, we are committed to keeping everything as secure as possible. We encourage you to review the code provided in this project. However, we ask that you be considerate of other users and refrain from publicly disclosing security issues without first contacting us via email.
 
-We'll make a deal with you: if you contact us by email, and we fail to respond to you within a week you are welcome to
-publicly disclose whatever issue you have found. We understand how frustrating it is when you find something big and
-no one will respond to you. This holds us to a standard of providing prompt attention to any issues that arise and
-keeping this community safe.
+We offer this assurance: if you reach out to us by email and we do not respond within a week, you are welcome to publicly disclose the issue you have found. We understand the frustration that can come from encountering significant issues without timely feedback. This policy holds us accountable for providing prompt attention to any problems that arise and helps keep our community safe.
 
-If you've found what you believe is a security issue please email `matthew@pterodactyl.io`. Please check
-[SECURITY.md](/SECURITY.md) for additional details.
+If you believe you have discovered a security issue, please contact us on [Discord](https://discord.gg/3b9bcWeM). For additional details, check [SECURITY.md](/SECURITY.md).
 
 ### Contact Us
 
-You can find us in a couple places online. First and foremost, we're active right here on GitHub. If you encounter a
-bug or other problems, open an issue on here for us to take a look at it. We also accept feature requests here as well.
+You can connect with us through several platforms. We are active on GitHub, so if you encounter a bug or any issues, please open an issue for us to review. We also welcome feature requests through GitHub.
 
-You can also find us on [Discord](https://discord.gg/pterodactyl).
+Additionally, you can find us on [Discord](https://discord.gg/3b9bcWeM).
