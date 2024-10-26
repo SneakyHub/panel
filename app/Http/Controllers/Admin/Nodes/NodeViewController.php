@@ -1,20 +1,20 @@
 <?php
 
-namespace Pterodactyl\Http\Controllers\Admin\Nodes;
+namespace sneakypanel\Http\Controllers\Admin\Nodes;
 
 use Illuminate\View\View;
 use Illuminate\Http\Request;
-use Pterodactyl\Models\Node;
+use sneakypanel\Models\Node;
 use Illuminate\Support\Collection;
-use Pterodactyl\Models\Allocation;
-use Pterodactyl\Http\Controllers\Controller;
+use sneakypanel\Models\Allocation;
+use sneakypanel\Http\Controllers\Controller;
 use Illuminate\Contracts\View\Factory as ViewFactory;
-use Pterodactyl\Repositories\Eloquent\NodeRepository;
-use Pterodactyl\Repositories\Eloquent\ServerRepository;
-use Pterodactyl\Traits\Controllers\JavascriptInjection;
-use Pterodactyl\Services\Helpers\SoftwareVersionService;
-use Pterodactyl\Repositories\Eloquent\LocationRepository;
-use Pterodactyl\Repositories\Eloquent\AllocationRepository;
+use sneakypanel\Repositories\Eloquent\NodeRepository;
+use sneakypanel\Repositories\Eloquent\ServerRepository;
+use sneakypanel\Traits\Controllers\JavascriptInjection;
+use sneakypanel\Services\Helpers\SoftwareVersionService;
+use sneakypanel\Repositories\Eloquent\LocationRepository;
+use sneakypanel\Repositories\Eloquent\AllocationRepository;
 
 class NodeViewController extends Controller
 {

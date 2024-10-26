@@ -1,6 +1,6 @@
 <?php
 
-namespace Pterodactyl\Traits\Controllers;
+namespace sneakypanel\Traits\Controllers;
 
 use JavaScript;
 

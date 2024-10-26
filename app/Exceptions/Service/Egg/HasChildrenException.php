@@ -1,8 +1,8 @@
 <?php
 
-namespace Pterodactyl\Exceptions\Service\Egg;
+namespace sneakypanel\Exceptions\Service\Egg;
 
-use Pterodactyl\Exceptions\DisplayException;
+use sneakypanel\Exceptions\DisplayException;
 
 class HasChildrenException extends DisplayException
 {

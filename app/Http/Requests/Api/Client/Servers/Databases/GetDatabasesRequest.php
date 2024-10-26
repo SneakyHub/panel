@@ -1,10 +1,10 @@
 <?php
 
-namespace Pterodactyl\Http\Requests\Api\Client\Servers\Databases;
+namespace sneakypanel\Http\Requests\Api\Client\Servers\Databases;
 
-use Pterodactyl\Models\Permission;
-use Pterodactyl\Contracts\Http\ClientPermissionsRequest;
-use Pterodactyl\Http\Requests\Api\Client\ClientApiRequest;
+use sneakypanel\Models\Permission;
+use sneakypanel\Contracts\Http\ClientPermissionsRequest;
+use sneakypanel\Http\Requests\Api\Client\ClientApiRequest;
 
 class GetDatabasesRequest extends ClientApiRequest implements ClientPermissionsRequest
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace Pterodactyl\Http\Requests\Api\Application\Servers;
+namespace sneakypanel\Http\Requests\Api\Application\Servers;
 
-use Pterodactyl\Models\Server;
+use sneakypanel\Models\Server;
 
 class UpdateServerDetailsRequest extends ServerWriteRequest
 {

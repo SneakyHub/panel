@@ -1,16 +1,16 @@
 <?php
 
-namespace Pterodactyl\Services\Nodes;
+namespace sneakypanel\Services\Nodes;
 
 use Illuminate\Support\Str;
-use Pterodactyl\Models\Node;
+use sneakypanel\Models\Node;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Database\ConnectionInterface;
 use Illuminate\Contracts\Encryption\Encrypter;
-use Pterodactyl\Repositories\Eloquent\NodeRepository;
-use Pterodactyl\Repositories\Wings\DaemonConfigurationRepository;
-use Pterodactyl\Exceptions\Http\Connection\DaemonConnectionException;
-use Pterodactyl\Exceptions\Service\Node\ConfigurationNotPersistedException;
+use sneakypanel\Repositories\Eloquent\NodeRepository;
+use sneakypanel\Repositories\Wings\DaemonConfigurationRepository;
+use sneakypanel\Exceptions\Http\Connection\DaemonConnectionException;
+use sneakypanel\Exceptions\Service\Node\ConfigurationNotPersistedException;
 
 class NodeUpdateService
 {
@@ -50,7 +50,7 @@ class NodeUpdateService
                 // This makes more sense anyways, because only the Panel uses the FQDN for connecting, the
                 // node doesn't actually care about this.
                 //
-                // @see https://github.com/pterodactyl/panel/issues/1931
+                // @see https://github.com/sneakypanel/panel/issues/1931
                 $node->fqdn = $updated->fqdn;
 
                 $this->configurationRepository->setNode($node)->update($updated);
@@ -64,7 +64,7 @@ class NodeUpdateService
                 // This avoids issues with proxies such as Cloudflare which will see Wings as offline and then
                 // inject their own response pages, causing this logic to get fucked up.
                 //
-                // @see https://github.com/pterodactyl/panel/issues/2712
+                // @see https://github.com/sneakypanel/panel/issues/2712
                 return [$updated, true];
             }
 

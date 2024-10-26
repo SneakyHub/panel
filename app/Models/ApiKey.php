@@ -1,15 +1,15 @@
 <?php
 
-namespace Pterodactyl\Models;
+namespace sneakypanel\Models;
 
 use Illuminate\Support\Str;
 use Webmozart\Assert\Assert;
-use Pterodactyl\Services\Acl\Api\AdminAcl;
+use sneakypanel\Services\Acl\Api\AdminAcl;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 
 /**
- * Pterodactyl\Models\ApiKey.
+ * sneakypanel\Models\ApiKey.
  *
  * @property int $id
  * @property int $user_id

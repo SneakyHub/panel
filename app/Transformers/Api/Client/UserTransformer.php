@@ -1,9 +1,9 @@
 <?php
 
-namespace Pterodactyl\Transformers\Api\Client;
+namespace sneakypanel\Transformers\Api\Client;
 
 use Illuminate\Support\Str;
-use Pterodactyl\Models\User;
+use sneakypanel\Models\User;
 
 class UserTransformer extends BaseClientTransformer
 {

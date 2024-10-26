@@ -1,10 +1,10 @@
 <?php
 
-namespace Pterodactyl\Http\Requests\Api\Client\Servers\Files;
+namespace sneakypanel\Http\Requests\Api\Client\Servers\Files;
 
-use Pterodactyl\Models\Permission;
-use Pterodactyl\Contracts\Http\ClientPermissionsRequest;
-use Pterodactyl\Http\Requests\Api\Client\ClientApiRequest;
+use sneakypanel\Models\Permission;
+use sneakypanel\Contracts\Http\ClientPermissionsRequest;
+use sneakypanel\Http\Requests\Api\Client\ClientApiRequest;
 
 class WriteFileContentRequest extends ClientApiRequest implements ClientPermissionsRequest
 {

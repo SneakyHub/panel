@@ -7,7 +7,7 @@ return [
     |--------------------------------------------------------------------------
     | Application Version
     |--------------------------------------------------------------------------
-    | This value is set when creating a Pterodactyl release. You should not
+    | This value is set when creating a sneakypanel release. You should not
     | change this value if you are not maintaining your own internal versions.
     */
 
@@ -24,7 +24,7 @@ return [
     |
     */
 
-    'name' => env('APP_NAME', 'Pterodactyl'),
+    'name' => env('APP_NAME', 'sneakypanel'),
 
     /*
     |--------------------------------------------------------------------------
@@ -191,16 +191,16 @@ return [
         /*
          * Application Service Providers...
          */
-        Pterodactyl\Providers\ActivityLogServiceProvider::class,
-        Pterodactyl\Providers\AppServiceProvider::class,
-        Pterodactyl\Providers\AuthServiceProvider::class,
-        Pterodactyl\Providers\BackupsServiceProvider::class,
-        Pterodactyl\Providers\BladeServiceProvider::class,
-        Pterodactyl\Providers\EventServiceProvider::class,
-        Pterodactyl\Providers\HashidsServiceProvider::class,
-        Pterodactyl\Providers\RouteServiceProvider::class,
-        Pterodactyl\Providers\RepositoryServiceProvider::class,
-        Pterodactyl\Providers\ViewComposerServiceProvider::class,
+        sneakypanel\Providers\ActivityLogServiceProvider::class,
+        sneakypanel\Providers\AppServiceProvider::class,
+        sneakypanel\Providers\AuthServiceProvider::class,
+        sneakypanel\Providers\BackupsServiceProvider::class,
+        sneakypanel\Providers\BladeServiceProvider::class,
+        sneakypanel\Providers\EventServiceProvider::class,
+        sneakypanel\Providers\HashidsServiceProvider::class,
+        sneakypanel\Providers\RouteServiceProvider::class,
+        sneakypanel\Providers\RepositoryServiceProvider::class,
+        sneakypanel\Providers\ViewComposerServiceProvider::class,
 
         /*
          * Additional Dependencies
@@ -223,11 +223,11 @@ return [
         'Alert' => Prologue\Alerts\Facades\Alert::class,
         'Carbon' => Carbon\Carbon::class,
         'JavaScript' => Laracasts\Utilities\JavaScript\JavaScriptFacade::class,
-        'Theme' => Pterodactyl\Extensions\Facades\Theme::class,
+        'Theme' => sneakypanel\Extensions\Facades\Theme::class,
 
         // Custom Facades
-        'Activity' => Pterodactyl\Facades\Activity::class,
-        'LogBatch' => Pterodactyl\Facades\LogBatch::class,
-        'LogTarget' => Pterodactyl\Facades\LogTarget::class,
+        'Activity' => sneakypanel\Facades\Activity::class,
+        'LogBatch' => sneakypanel\Facades\LogBatch::class,
+        'LogTarget' => sneakypanel\Facades\LogTarget::class,
     ])->toArray(),
 ];

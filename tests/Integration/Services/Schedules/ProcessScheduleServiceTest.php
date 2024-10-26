@@ -1,17 +1,17 @@
 <?php
 
-namespace Pterodactyl\Tests\Integration\Services\Schedules;
+namespace sneakypanel\Tests\Integration\Services\Schedules;
 
 use Exception;
 use Carbon\CarbonImmutable;
-use Pterodactyl\Models\Task;
-use Pterodactyl\Models\Schedule;
+use sneakypanel\Models\Task;
+use sneakypanel\Models\Schedule;
 use Illuminate\Support\Facades\Bus;
 use Illuminate\Contracts\Bus\Dispatcher;
-use Pterodactyl\Jobs\Schedule\RunTaskJob;
-use Pterodactyl\Exceptions\DisplayException;
-use Pterodactyl\Tests\Integration\IntegrationTestCase;
-use Pterodactyl\Services\Schedules\ProcessScheduleService;
+use sneakypanel\Jobs\Schedule\RunTaskJob;
+use sneakypanel\Exceptions\DisplayException;
+use sneakypanel\Tests\Integration\IntegrationTestCase;
+use sneakypanel\Services\Schedules\ProcessScheduleService;
 
 class ProcessScheduleServiceTest extends IntegrationTestCase
 {
@@ -88,7 +88,7 @@ class ProcessScheduleServiceTest extends IntegrationTestCase
      * Test that even if a schedule's task sequence gets messed up the first task based on
      * the ascending order of tasks is used.
      *
-     * @see https://github.com/pterodactyl/panel/issues/2534
+     * @see https://github.com/sneakypanel/panel/issues/2534
      */
     public function testFirstSequenceTaskIsFound()
     {
@@ -119,7 +119,7 @@ class ProcessScheduleServiceTest extends IntegrationTestCase
      * Tests that a task's processing state is reset correctly if using "dispatchNow" and there is
      * an exception encountered while running it.
      *
-     * @see https://github.com/pterodactyl/panel/issues/2550
+     * @see https://github.com/sneakypanel/panel/issues/2550
      */
     public function testTaskDispatchedNowIsResetProperlyIfErrorIsEncountered()
     {

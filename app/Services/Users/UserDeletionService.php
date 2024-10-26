@@ -1,12 +1,12 @@
 <?php
 
-namespace Pterodactyl\Services\Users;
+namespace sneakypanel\Services\Users;
 
-use Pterodactyl\Models\User;
-use Pterodactyl\Exceptions\DisplayException;
+use sneakypanel\Models\User;
+use sneakypanel\Exceptions\DisplayException;
 use Illuminate\Contracts\Translation\Translator;
-use Pterodactyl\Contracts\Repository\UserRepositoryInterface;
-use Pterodactyl\Contracts\Repository\ServerRepositoryInterface;
+use sneakypanel\Contracts\Repository\UserRepositoryInterface;
+use sneakypanel\Contracts\Repository\ServerRepositoryInterface;
 
 class UserDeletionService
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Pterodactyl\Models;
+namespace sneakypanel\Models;
 
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
@@ -12,8 +12,8 @@ use Illuminate\Database\Eloquent\Relations\HasManyThrough;
  * @property string $long
  * @property \Carbon\Carbon $created_at
  * @property \Carbon\Carbon $updated_at
- * @property \Pterodactyl\Models\Node[] $nodes
- * @property \Pterodactyl\Models\Server[] $servers
+ * @property \sneakypanel\Models\Node[] $nodes
+ * @property \sneakypanel\Models\Server[] $servers
  */
 class Location extends Model
 {

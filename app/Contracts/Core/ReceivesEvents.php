@@ -1,8 +1,8 @@
 <?php
 
-namespace Pterodactyl\Contracts\Core;
+namespace sneakypanel\Contracts\Core;
 
-use Pterodactyl\Events\Event;
+use sneakypanel\Events\Event;
 
 interface ReceivesEvents
 {

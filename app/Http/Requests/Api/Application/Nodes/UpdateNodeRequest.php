@@ -1,8 +1,8 @@
 <?php
 
-namespace Pterodactyl\Http\Requests\Api\Application\Nodes;
+namespace sneakypanel\Http\Requests\Api\Application\Nodes;
 
-use Pterodactyl\Models\Node;
+use sneakypanel\Models\Node;
 
 class UpdateNodeRequest extends StoreNodeRequest
 {

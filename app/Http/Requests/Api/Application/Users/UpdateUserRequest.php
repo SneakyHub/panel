@@ -1,8 +1,8 @@
 <?php
 
-namespace Pterodactyl\Http\Requests\Api\Application\Users;
+namespace sneakypanel\Http\Requests\Api\Application\Users;
 
-use Pterodactyl\Models\User;
+use sneakypanel\Models\User;
 
 class UpdateUserRequest extends StoreUserRequest
 {

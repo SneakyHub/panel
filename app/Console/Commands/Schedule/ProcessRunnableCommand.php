@@ -1,13 +1,13 @@
 <?php
 
-namespace Pterodactyl\Console\Commands\Schedule;
+namespace sneakypanel\Console\Commands\Schedule;
 
 use Exception;
 use Illuminate\Console\Command;
-use Pterodactyl\Models\Schedule;
+use sneakypanel\Models\Schedule;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Database\Eloquent\Builder;
-use Pterodactyl\Services\Schedules\ProcessScheduleService;
+use sneakypanel\Services\Schedules\ProcessScheduleService;
 
 class ProcessRunnableCommand extends Command
 {
@@ -52,7 +52,7 @@ class ProcessRunnableCommand extends Command
      * never throw an exception out, otherwise you'll end up killing the entire run group causing
      * any other schedules to not process correctly.
      *
-     * @see https://github.com/pterodactyl/panel/issues/2609
+     * @see https://github.com/sneakypanel/panel/issues/2609
      */
     protected function processSchedule(Schedule $schedule)
     {

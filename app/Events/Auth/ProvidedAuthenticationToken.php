@@ -1,9 +1,9 @@
 <?php
 
-namespace Pterodactyl\Events\Auth;
+namespace sneakypanel\Events\Auth;
 
-use Pterodactyl\Models\User;
-use Pterodactyl\Events\Event;
+use sneakypanel\Models\User;
+use sneakypanel\Events\Event;
 
 class ProvidedAuthenticationToken extends Event
 {

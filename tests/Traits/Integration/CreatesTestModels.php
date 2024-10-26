@@ -1,15 +1,15 @@
 <?php
 
-namespace Pterodactyl\Tests\Traits\Integration;
+namespace sneakypanel\Tests\Traits\Integration;
 
 use Ramsey\Uuid\Uuid;
-use Pterodactyl\Models\Egg;
-use Pterodactyl\Models\Node;
-use Pterodactyl\Models\User;
-use Pterodactyl\Models\Server;
-use Pterodactyl\Models\Subuser;
-use Pterodactyl\Models\Location;
-use Pterodactyl\Models\Allocation;
+use sneakypanel\Models\Egg;
+use sneakypanel\Models\Node;
+use sneakypanel\Models\User;
+use sneakypanel\Models\Server;
+use sneakypanel\Models\Subuser;
+use sneakypanel\Models\Location;
+use sneakypanel\Models\Allocation;
 
 trait CreatesTestModels
 {
@@ -81,7 +81,7 @@ trait CreatesTestModels
      *
      * @param string[] $permissions
      *
-     * @return array{\Pterodactyl\Models\User, \Pterodactyl\Models\Server}
+     * @return array{\sneakypanel\Models\User, \sneakypanel\Models\Server}
      */
     public function generateTestAccount(array $permissions = []): array
     {
@@ -130,7 +130,7 @@ trait CreatesTestModels
     private function getBungeecordEgg(): Egg
     {
         /** @var Egg $egg */
-        $egg = Egg::query()->where('author', 'support@pterodactyl.io')->where('name', 'Bungeecord')->firstOrFail();
+        $egg = Egg::query()->where('author', 'support@sneakypanel.com')->where('name', 'Bungeecord')->firstOrFail();
 
         return $egg;
     }

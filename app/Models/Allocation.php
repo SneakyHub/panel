@@ -1,12 +1,12 @@
 <?php
 
-namespace Pterodactyl\Models;
+namespace sneakypanel\Models;
 
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 
 /**
- * Pterodactyl\Models\Allocation.
+ * sneakypanel\Models\Allocation.
  *
  * @property int $id
  * @property int $node_id

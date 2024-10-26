@@ -1,9 +1,9 @@
 <?php
 
-namespace Pterodactyl\Events\User;
+namespace sneakypanel\Events\User;
 
-use Pterodactyl\Models\User;
-use Pterodactyl\Events\Event;
+use sneakypanel\Models\User;
+use sneakypanel\Events\Event;
 use Illuminate\Queue\SerializesModels;
 
 class Deleting extends Event

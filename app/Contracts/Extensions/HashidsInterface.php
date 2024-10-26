@@ -1,6 +1,6 @@
 <?php
 
-namespace Pterodactyl\Contracts\Extensions;
+namespace sneakypanel\Contracts\Extensions;
 
 use Hashids\HashidsInterface as VendorHashidsInterface;
 

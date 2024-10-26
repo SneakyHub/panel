@@ -1,9 +1,9 @@
 <?php
 
-namespace Pterodactyl\Console\Commands\Environment;
+namespace sneakypanel\Console\Commands\Environment;
 
 use Illuminate\Console\Command;
-use Pterodactyl\Traits\Commands\EnvironmentWriterTrait;
+use sneakypanel\Traits\Commands\EnvironmentWriterTrait;
 use Illuminate\Contracts\Config\Repository as ConfigRepository;
 
 class EmailSettingsCommand extends Command
@@ -36,7 +36,7 @@ class EmailSettingsCommand extends Command
     /**
      * Handle command execution.
      *
-     * @throws \Pterodactyl\Exceptions\PterodactylException
+     * @throws \sneakypanel\Exceptions\sneakypanelException
      */
     public function handle()
     {

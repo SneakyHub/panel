@@ -1,8 +1,8 @@
 <?php
 
-namespace Pterodactyl\Exceptions\Service\Allocation;
+namespace sneakypanel\Exceptions\Service\Allocation;
 
-use Pterodactyl\Exceptions\DisplayException;
+use sneakypanel\Exceptions\DisplayException;
 
 class TooManyPortsInRangeException extends DisplayException
 {

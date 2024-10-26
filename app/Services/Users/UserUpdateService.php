@@ -1,10 +1,10 @@
 <?php
 
-namespace Pterodactyl\Services\Users;
+namespace sneakypanel\Services\Users;
 
-use Pterodactyl\Models\User;
+use sneakypanel\Models\User;
 use Illuminate\Contracts\Hashing\Hasher;
-use Pterodactyl\Traits\Services\HasUserLevels;
+use sneakypanel\Traits\Services\HasUserLevels;
 
 class UserUpdateService
 {

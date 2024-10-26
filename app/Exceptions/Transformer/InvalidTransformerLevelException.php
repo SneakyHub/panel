@@ -1,9 +1,9 @@
 <?php
 
-namespace Pterodactyl\Exceptions\Transformer;
+namespace sneakypanel\Exceptions\Transformer;
 
-use Pterodactyl\Exceptions\PterodactylException;
+use sneakypanel\Exceptions\sneakypanelException;
 
-class InvalidTransformerLevelException extends PterodactylException
+class InvalidTransformerLevelException extends sneakypanelException
 {
 }

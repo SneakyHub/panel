@@ -1,12 +1,12 @@
 <?php
 
-namespace Pterodactyl\Tests\Integration\Api\Client\Server\ScheduleTask;
+namespace sneakypanel\Tests\Integration\Api\Client\Server\ScheduleTask;
 
-use Pterodactyl\Models\Task;
+use sneakypanel\Models\Task;
 use Illuminate\Http\Response;
-use Pterodactyl\Models\Schedule;
-use Pterodactyl\Models\Permission;
-use Pterodactyl\Tests\Integration\Api\Client\ClientApiIntegrationTestCase;
+use sneakypanel\Models\Schedule;
+use sneakypanel\Models\Permission;
+use sneakypanel\Tests\Integration\Api\Client\ClientApiIntegrationTestCase;
 
 class CreateServerScheduleTaskTest extends ClientApiIntegrationTestCase
 {
@@ -118,7 +118,7 @@ class CreateServerScheduleTaskTest extends ClientApiIntegrationTestCase
      */
     public function testErrorIsReturnedIfTooManyTasksExistForSchedule()
     {
-        config()->set('pterodactyl.client_features.schedules.per_schedule_task_limit', 2);
+        config()->set('sneakypanel.client_features.schedules.per_schedule_task_limit', 2);
 
         [$user, $server] = $this->generateTestAccount();
 

@@ -1,9 +1,9 @@
 <?php
 
-namespace Pterodactyl\Exceptions\Service\Server;
+namespace sneakypanel\Exceptions\Service\Server;
 
-use Pterodactyl\Exceptions\PterodactylException;
+use sneakypanel\Exceptions\sneakypanelException;
 
-class RequiredVariableMissingException extends PterodactylException
+class RequiredVariableMissingException extends sneakypanelException
 {
 }

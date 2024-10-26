@@ -1,11 +1,11 @@
 <?php
 
-namespace Pterodactyl\Http\Controllers\Api\Application\Nodes;
+namespace sneakypanel\Http\Controllers\Api\Application\Nodes;
 
-use Pterodactyl\Models\Node;
+use sneakypanel\Models\Node;
 use Illuminate\Http\JsonResponse;
-use Pterodactyl\Http\Requests\Api\Application\Nodes\GetNodeRequest;
-use Pterodactyl\Http\Controllers\Api\Application\ApplicationApiController;
+use sneakypanel\Http\Requests\Api\Application\Nodes\GetNodeRequest;
+use sneakypanel\Http\Controllers\Api\Application\ApplicationApiController;
 
 class NodeConfigurationController extends ApplicationApiController
 {

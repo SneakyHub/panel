@@ -1,6 +1,6 @@
 <?php
 
-namespace Pterodactyl\Contracts\Repository;
+namespace sneakypanel\Contracts\Repository;
 
 use Illuminate\Support\Collection;
 

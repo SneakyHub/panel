@@ -1,6 +1,6 @@
 <?php
 
-namespace Pterodactyl\Services\Activity;
+namespace sneakypanel\Services\Activity;
 
 use Illuminate\Database\Eloquent\Model;
 

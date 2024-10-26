@@ -1,8 +1,8 @@
 <?php
 
-namespace Pterodactyl\Contracts\Repository;
+namespace sneakypanel\Contracts\Repository;
 
-use Pterodactyl\Models\Allocation;
+use sneakypanel\Models\Allocation;
 
 interface AllocationRepositoryInterface extends RepositoryInterface
 {

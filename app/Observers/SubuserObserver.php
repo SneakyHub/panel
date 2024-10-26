@@ -1,11 +1,11 @@
 <?php
 
-namespace Pterodactyl\Observers;
+namespace sneakypanel\Observers;
 
-use Pterodactyl\Events;
-use Pterodactyl\Models\Subuser;
-use Pterodactyl\Notifications\AddedToServer;
-use Pterodactyl\Notifications\RemovedFromServer;
+use sneakypanel\Events;
+use sneakypanel\Models\Subuser;
+use sneakypanel\Notifications\AddedToServer;
+use sneakypanel\Notifications\RemovedFromServer;
 
 class SubuserObserver
 {

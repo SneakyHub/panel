@@ -1,10 +1,10 @@
 <?php
 
-namespace Pterodactyl\Http\Middleware\Activity;
+namespace sneakypanel\Http\Middleware\Activity;
 
 use Illuminate\Http\Request;
-use Pterodactyl\Models\ApiKey;
-use Pterodactyl\Facades\LogTarget;
+use sneakypanel\Models\ApiKey;
+use sneakypanel\Facades\LogTarget;
 
 class TrackAPIKey
 {
