@@ -1,6 +1,6 @@
 <?php
 
-namespace Pterodactyl\Models;
+namespace sneakypanel\Models;
 
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Database\Eloquent\Relations\HasMany;

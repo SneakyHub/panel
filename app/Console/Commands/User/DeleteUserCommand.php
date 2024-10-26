@@ -1,11 +1,11 @@
 <?php
 
-namespace Pterodactyl\Console\Commands\User;
+namespace sneakypanel\Console\Commands\User;
 
-use Pterodactyl\Models\User;
+use sneakypanel\Models\User;
 use Webmozart\Assert\Assert;
 use Illuminate\Console\Command;
-use Pterodactyl\Services\Users\UserDeletionService;
+use sneakypanel\Services\Users\UserDeletionService;
 
 class DeleteUserCommand extends Command
 {

@@ -1,13 +1,13 @@
 <?php
 
-namespace Pterodactyl\Models;
+namespace sneakypanel\Models;
 
 use Illuminate\Database\Eloquent\SoftDeletes;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 
 /**
- * \Pterodactyl\Models\UserSSHKey.
+ * \sneakypanel\Models\UserSSHKey.
  *
  * @property int $id
  * @property int $user_id

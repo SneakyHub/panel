@@ -1,6 +1,6 @@
 <?php
 
-namespace Pterodactyl\Models;
+namespace sneakypanel\Models;
 
 use Ramsey\Uuid\Uuid;
 use Illuminate\Http\Request;

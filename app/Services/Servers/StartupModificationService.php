@@ -1,14 +1,14 @@
 <?php
 
-namespace Pterodactyl\Services\Servers;
+namespace sneakypanel\Services\Servers;
 
 use Illuminate\Support\Arr;
-use Pterodactyl\Models\Egg;
-use Pterodactyl\Models\User;
-use Pterodactyl\Models\Server;
-use Pterodactyl\Models\ServerVariable;
+use sneakypanel\Models\Egg;
+use sneakypanel\Models\User;
+use sneakypanel\Models\Server;
+use sneakypanel\Models\ServerVariable;
 use Illuminate\Database\ConnectionInterface;
-use Pterodactyl\Traits\Services\HasUserLevels;
+use sneakypanel\Traits\Services\HasUserLevels;
 
 class StartupModificationService
 {

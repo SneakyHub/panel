@@ -1,8 +1,8 @@
 <?php
 
-namespace Pterodactyl\Http\Requests\Api\Client\Servers\Subusers;
+namespace sneakypanel\Http\Requests\Api\Client\Servers\Subusers;
 
-use Pterodactyl\Models\Permission;
+use sneakypanel\Models\Permission;
 
 class DeleteSubuserRequest extends SubuserRequest
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Pterodactyl\Events;
+namespace sneakypanel\Events;
 
 abstract class Event
 {

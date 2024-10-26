@@ -1,5 +1,5 @@
 {
-  description = "Pterodactyl Panel";
+  description = "sneakypanel Panel";
 
   inputs = {
     flake-parts = {
@@ -58,7 +58,7 @@
         };
 
         packages.development = pkgs.dockerTools.buildImage {
-          name = "pterodactyl/development";
+          name = "sneakypanel/development";
           tag = "panel";
 
           copyToRoot = pkgs.buildEnv (let

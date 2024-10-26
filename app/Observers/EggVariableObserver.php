@@ -1,8 +1,8 @@
 <?php
 
-namespace Pterodactyl\Observers;
+namespace sneakypanel\Observers;
 
-use Pterodactyl\Models\EggVariable;
+use sneakypanel\Models\EggVariable;
 
 class EggVariableObserver
 {

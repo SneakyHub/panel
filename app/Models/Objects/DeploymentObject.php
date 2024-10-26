@@ -1,6 +1,6 @@
 <?php
 
-namespace Pterodactyl\Models\Objects;
+namespace sneakypanel\Models\Objects;
 
 class DeploymentObject
 {

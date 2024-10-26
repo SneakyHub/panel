@@ -1,42 +1,42 @@
 <?php
 
-namespace Pterodactyl\Providers;
+namespace sneakypanel\Providers;
 
 use Illuminate\Support\ServiceProvider;
-use Pterodactyl\Repositories\Eloquent\EggRepository;
-use Pterodactyl\Repositories\Eloquent\NestRepository;
-use Pterodactyl\Repositories\Eloquent\NodeRepository;
-use Pterodactyl\Repositories\Eloquent\TaskRepository;
-use Pterodactyl\Repositories\Eloquent\UserRepository;
-use Pterodactyl\Repositories\Eloquent\ApiKeyRepository;
-use Pterodactyl\Repositories\Eloquent\ServerRepository;
-use Pterodactyl\Repositories\Eloquent\SessionRepository;
-use Pterodactyl\Repositories\Eloquent\SubuserRepository;
-use Pterodactyl\Repositories\Eloquent\DatabaseRepository;
-use Pterodactyl\Repositories\Eloquent\LocationRepository;
-use Pterodactyl\Repositories\Eloquent\ScheduleRepository;
-use Pterodactyl\Repositories\Eloquent\SettingsRepository;
-use Pterodactyl\Repositories\Eloquent\AllocationRepository;
-use Pterodactyl\Contracts\Repository\EggRepositoryInterface;
-use Pterodactyl\Repositories\Eloquent\EggVariableRepository;
-use Pterodactyl\Contracts\Repository\NestRepositoryInterface;
-use Pterodactyl\Contracts\Repository\NodeRepositoryInterface;
-use Pterodactyl\Contracts\Repository\TaskRepositoryInterface;
-use Pterodactyl\Contracts\Repository\UserRepositoryInterface;
-use Pterodactyl\Repositories\Eloquent\DatabaseHostRepository;
-use Pterodactyl\Contracts\Repository\ApiKeyRepositoryInterface;
-use Pterodactyl\Contracts\Repository\ServerRepositoryInterface;
-use Pterodactyl\Repositories\Eloquent\ServerVariableRepository;
-use Pterodactyl\Contracts\Repository\SessionRepositoryInterface;
-use Pterodactyl\Contracts\Repository\SubuserRepositoryInterface;
-use Pterodactyl\Contracts\Repository\DatabaseRepositoryInterface;
-use Pterodactyl\Contracts\Repository\LocationRepositoryInterface;
-use Pterodactyl\Contracts\Repository\ScheduleRepositoryInterface;
-use Pterodactyl\Contracts\Repository\SettingsRepositoryInterface;
-use Pterodactyl\Contracts\Repository\AllocationRepositoryInterface;
-use Pterodactyl\Contracts\Repository\EggVariableRepositoryInterface;
-use Pterodactyl\Contracts\Repository\DatabaseHostRepositoryInterface;
-use Pterodactyl\Contracts\Repository\ServerVariableRepositoryInterface;
+use sneakypanel\Repositories\Eloquent\EggRepository;
+use sneakypanel\Repositories\Eloquent\NestRepository;
+use sneakypanel\Repositories\Eloquent\NodeRepository;
+use sneakypanel\Repositories\Eloquent\TaskRepository;
+use sneakypanel\Repositories\Eloquent\UserRepository;
+use sneakypanel\Repositories\Eloquent\ApiKeyRepository;
+use sneakypanel\Repositories\Eloquent\ServerRepository;
+use sneakypanel\Repositories\Eloquent\SessionRepository;
+use sneakypanel\Repositories\Eloquent\SubuserRepository;
+use sneakypanel\Repositories\Eloquent\DatabaseRepository;
+use sneakypanel\Repositories\Eloquent\LocationRepository;
+use sneakypanel\Repositories\Eloquent\ScheduleRepository;
+use sneakypanel\Repositories\Eloquent\SettingsRepository;
+use sneakypanel\Repositories\Eloquent\AllocationRepository;
+use sneakypanel\Contracts\Repository\EggRepositoryInterface;
+use sneakypanel\Repositories\Eloquent\EggVariableRepository;
+use sneakypanel\Contracts\Repository\NestRepositoryInterface;
+use sneakypanel\Contracts\Repository\NodeRepositoryInterface;
+use sneakypanel\Contracts\Repository\TaskRepositoryInterface;
+use sneakypanel\Contracts\Repository\UserRepositoryInterface;
+use sneakypanel\Repositories\Eloquent\DatabaseHostRepository;
+use sneakypanel\Contracts\Repository\ApiKeyRepositoryInterface;
+use sneakypanel\Contracts\Repository\ServerRepositoryInterface;
+use sneakypanel\Repositories\Eloquent\ServerVariableRepository;
+use sneakypanel\Contracts\Repository\SessionRepositoryInterface;
+use sneakypanel\Contracts\Repository\SubuserRepositoryInterface;
+use sneakypanel\Contracts\Repository\DatabaseRepositoryInterface;
+use sneakypanel\Contracts\Repository\LocationRepositoryInterface;
+use sneakypanel\Contracts\Repository\ScheduleRepositoryInterface;
+use sneakypanel\Contracts\Repository\SettingsRepositoryInterface;
+use sneakypanel\Contracts\Repository\AllocationRepositoryInterface;
+use sneakypanel\Contracts\Repository\EggVariableRepositoryInterface;
+use sneakypanel\Contracts\Repository\DatabaseHostRepositoryInterface;
+use sneakypanel\Contracts\Repository\ServerVariableRepositoryInterface;
 
 class RepositoryServiceProvider extends ServiceProvider
 {

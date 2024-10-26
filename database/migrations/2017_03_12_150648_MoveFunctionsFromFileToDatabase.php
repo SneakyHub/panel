@@ -10,8 +10,8 @@ class MoveFunctionsFromFileToDatabase extends Migration
 'use strict';
 
 /**
- * Pterodactyl - Daemon
- * Copyright (c) 2015 - 2017 Dane Everitt <dane@daneeveritt.com>
+ * sneakypanel - Daemon
+ * Copyright (c) 2015 - 2017 DaneSneaky <sneaky@sneakypanel.com>
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -45,8 +45,8 @@ EOF;
 'use strict';
 
 /**
- * Pterodactyl - Daemon
- * Copyright (c) 2015 - 2017 Dane Everitt <dane@daneeveritt.com>
+ * sneakypanel - Daemon
+ * Copyright (c) 2015 - 2017 DaneSneaky <sneaky@sneakypanel.com>
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal

@@ -1,19 +1,19 @@
 <?php
 
-namespace Pterodactyl\Http\Controllers\Api\Application\Servers;
+namespace sneakypanel\Http\Controllers\Api\Application\Servers;
 
 use Illuminate\Http\Response;
-use Pterodactyl\Models\Server;
-use Pterodactyl\Models\Database;
+use sneakypanel\Models\Server;
+use sneakypanel\Models\Database;
 use Illuminate\Http\JsonResponse;
-use Pterodactyl\Services\Databases\DatabasePasswordService;
-use Pterodactyl\Services\Databases\DatabaseManagementService;
-use Pterodactyl\Transformers\Api\Application\ServerDatabaseTransformer;
-use Pterodactyl\Http\Controllers\Api\Application\ApplicationApiController;
-use Pterodactyl\Http\Requests\Api\Application\Servers\Databases\GetServerDatabaseRequest;
-use Pterodactyl\Http\Requests\Api\Application\Servers\Databases\GetServerDatabasesRequest;
-use Pterodactyl\Http\Requests\Api\Application\Servers\Databases\ServerDatabaseWriteRequest;
-use Pterodactyl\Http\Requests\Api\Application\Servers\Databases\StoreServerDatabaseRequest;
+use sneakypanel\Services\Databases\DatabasePasswordService;
+use sneakypanel\Services\Databases\DatabaseManagementService;
+use sneakypanel\Transformers\Api\Application\ServerDatabaseTransformer;
+use sneakypanel\Http\Controllers\Api\Application\ApplicationApiController;
+use sneakypanel\Http\Requests\Api\Application\Servers\Databases\GetServerDatabaseRequest;
+use sneakypanel\Http\Requests\Api\Application\Servers\Databases\GetServerDatabasesRequest;
+use sneakypanel\Http\Requests\Api\Application\Servers\Databases\ServerDatabaseWriteRequest;
+use sneakypanel\Http\Requests\Api\Application\Servers\Databases\StoreServerDatabaseRequest;
 
 class DatabaseController extends ApplicationApiController
 {

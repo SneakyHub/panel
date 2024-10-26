@@ -1,6 +1,6 @@
 <?php
 
-namespace Pterodactyl\Jobs;
+namespace sneakypanel\Jobs;
 
 use Illuminate\Bus\Queueable;
 

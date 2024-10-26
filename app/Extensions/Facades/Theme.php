@@ -1,6 +1,6 @@
 <?php
 
-namespace Pterodactyl\Extensions\Facades;
+namespace sneakypanel\Extensions\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

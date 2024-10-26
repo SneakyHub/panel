@@ -1,9 +1,9 @@
 <?php
 
-namespace Pterodactyl\Exceptions\Service\Allocation;
+namespace sneakypanel\Exceptions\Service\Allocation;
 
-use Pterodactyl\Exceptions\PterodactylException;
+use sneakypanel\Exceptions\sneakypanelException;
 
-class AllocationDoesNotBelongToServerException extends PterodactylException
+class AllocationDoesNotBelongToServerException extends sneakypanelException
 {
 }

@@ -1,9 +1,9 @@
 <?php
 
-namespace Pterodactyl\Policies;
+namespace sneakypanel\Policies;
 
-use Pterodactyl\Models\User;
-use Pterodactyl\Models\Server;
+use sneakypanel\Models\User;
+use sneakypanel\Models\Server;
 
 class ServerPolicy
 {

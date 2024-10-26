@@ -1,12 +1,12 @@
 <?php
 
-namespace Pterodactyl\Services\Nodes;
+namespace sneakypanel\Services\Nodes;
 
-use Pterodactyl\Models\Node;
+use sneakypanel\Models\Node;
 use Illuminate\Contracts\Translation\Translator;
-use Pterodactyl\Contracts\Repository\NodeRepositoryInterface;
-use Pterodactyl\Exceptions\Service\HasActiveServersException;
-use Pterodactyl\Contracts\Repository\ServerRepositoryInterface;
+use sneakypanel\Contracts\Repository\NodeRepositoryInterface;
+use sneakypanel\Exceptions\Service\HasActiveServersException;
+use sneakypanel\Contracts\Repository\ServerRepositoryInterface;
 
 class NodeDeletionService
 {

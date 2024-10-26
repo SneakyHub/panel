@@ -1,13 +1,13 @@
 <?php
 
-namespace Pterodactyl\Http\Requests\Api\Client;
+namespace sneakypanel\Http\Requests\Api\Client;
 
-use Pterodactyl\Models\Server;
-use Pterodactyl\Contracts\Http\ClientPermissionsRequest;
-use Pterodactyl\Http\Requests\Api\Application\ApplicationApiRequest;
+use sneakypanel\Models\Server;
+use sneakypanel\Contracts\Http\ClientPermissionsRequest;
+use sneakypanel\Http\Requests\Api\Application\ApplicationApiRequest;
 
 /**
- * @method \Pterodactyl\Models\User user($guard = null)
+ * @method \sneakypanel\Models\User user($guard = null)
  */
 class ClientApiRequest extends ApplicationApiRequest
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace Pterodactyl\Http\Middleware\Api\Client;
+namespace sneakypanel\Http\Middleware\Api\Client;
 
-use Pterodactyl\Models\Server;
+use sneakypanel\Models\Server;
 use Illuminate\Routing\Middleware\SubstituteBindings;
 
 class SubstituteClientBindings extends SubstituteBindings
@@ -19,7 +19,7 @@ class SubstituteClientBindings extends SubstituteBindings
         });
 
         $this->router->bind('user', function ($value, $route) {
-            /** @var \Pterodactyl\Models\Subuser $match */
+            /** @var \sneakypanel\Models\Subuser $match */
             $match = $route->parameter('server')
                 ->subusers()
                 ->whereRelation('user', 'uuid', '=', $value)

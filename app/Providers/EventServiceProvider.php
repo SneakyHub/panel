@@ -1,18 +1,18 @@
 <?php
 
-namespace Pterodactyl\Providers;
+namespace sneakypanel\Providers;
 
-use Pterodactyl\Models\User;
-use Pterodactyl\Models\Server;
-use Pterodactyl\Models\Subuser;
-use Pterodactyl\Models\EggVariable;
-use Pterodactyl\Observers\UserObserver;
-use Pterodactyl\Observers\ServerObserver;
-use Pterodactyl\Observers\SubuserObserver;
-use Pterodactyl\Observers\EggVariableObserver;
-use Pterodactyl\Listeners\Auth\AuthenticationListener;
-use Pterodactyl\Events\Server\Installed as ServerInstalledEvent;
-use Pterodactyl\Notifications\ServerInstalled as ServerInstalledNotification;
+use sneakypanel\Models\User;
+use sneakypanel\Models\Server;
+use sneakypanel\Models\Subuser;
+use sneakypanel\Models\EggVariable;
+use sneakypanel\Observers\UserObserver;
+use sneakypanel\Observers\ServerObserver;
+use sneakypanel\Observers\SubuserObserver;
+use sneakypanel\Observers\EggVariableObserver;
+use sneakypanel\Listeners\Auth\AuthenticationListener;
+use sneakypanel\Events\Server\Installed as ServerInstalledEvent;
+use sneakypanel\Notifications\ServerInstalled as ServerInstalledNotification;
 use Illuminate\Foundation\Support\Providers\EventServiceProvider as ServiceProvider;
 
 class EventServiceProvider extends ServiceProvider

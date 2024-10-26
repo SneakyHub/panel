@@ -1,8 +1,8 @@
 <?php
 
-namespace Pterodactyl\Services\Servers;
+namespace sneakypanel\Services\Servers;
 
-use Pterodactyl\Models\Server;
+use sneakypanel\Models\Server;
 
 class StartupCommandService
 {

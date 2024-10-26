@@ -1,16 +1,16 @@
 <?php
 
-namespace Pterodactyl\Repositories\Wings;
+namespace sneakypanel\Repositories\Wings;
 
 use GuzzleHttp\Client;
-use Pterodactyl\Models\Node;
+use sneakypanel\Models\Node;
 use Webmozart\Assert\Assert;
-use Pterodactyl\Models\Server;
+use sneakypanel\Models\Server;
 use Illuminate\Contracts\Foundation\Application;
 
 /**
- * @method \Pterodactyl\Repositories\Wings\DaemonRepository setNode(\Pterodactyl\Models\Node $node)
- * @method \Pterodactyl\Repositories\Wings\DaemonRepository setServer(\Pterodactyl\Models\Server $server)
+ * @method \sneakypanel\Repositories\Wings\DaemonRepository setNode(\sneakypanel\Models\Node $node)
+ * @method \sneakypanel\Repositories\Wings\DaemonRepository setServer(\sneakypanel\Models\Server $server)
  */
 abstract class DaemonRepository
 {
@@ -57,8 +57,8 @@ abstract class DaemonRepository
         return new Client([
             'verify' => $this->app->environment('production'),
             'base_uri' => $this->node->getConnectionAddress(),
-            'timeout' => config('pterodactyl.guzzle.timeout'),
-            'connect_timeout' => config('pterodactyl.guzzle.connect_timeout'),
+            'timeout' => config('sneakypanel.guzzle.timeout'),
+            'connect_timeout' => config('sneakypanel.guzzle.connect_timeout'),
             'headers' => array_merge($headers, [
                 'Authorization' => 'Bearer ' . $this->node->getDecryptedKey(),
                 'Accept' => 'application/json',

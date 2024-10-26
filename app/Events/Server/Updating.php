@@ -1,9 +1,9 @@
 <?php
 
-namespace Pterodactyl\Events\Server;
+namespace sneakypanel\Events\Server;
 
-use Pterodactyl\Events\Event;
-use Pterodactyl\Models\Server;
+use sneakypanel\Events\Event;
+use sneakypanel\Models\Server;
 use Illuminate\Queue\SerializesModels;
 
 class Updating extends Event

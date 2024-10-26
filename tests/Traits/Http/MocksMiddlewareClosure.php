@@ -1,6 +1,6 @@
 <?php
 
-namespace Pterodactyl\Tests\Traits\Http;
+namespace sneakypanel\Tests\Traits\Http;
 
 use Closure;
 use Illuminate\Http\Request;

@@ -1,10 +1,10 @@
 <?php
 
-namespace Pterodactyl\Exceptions\Service\Database;
+namespace sneakypanel\Exceptions\Service\Database;
 
-use Pterodactyl\Exceptions\PterodactylException;
+use sneakypanel\Exceptions\sneakypanelException;
 
-class DatabaseClientFeatureNotEnabledException extends PterodactylException
+class DatabaseClientFeatureNotEnabledException extends sneakypanelException
 {
     public function __construct()
     {

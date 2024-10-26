@@ -1,9 +1,9 @@
 <?php
 
-namespace Pterodactyl\Observers;
+namespace sneakypanel\Observers;
 
-use Pterodactyl\Events;
-use Pterodactyl\Models\User;
+use sneakypanel\Events;
+use sneakypanel\Models\User;
 
 class UserObserver
 {

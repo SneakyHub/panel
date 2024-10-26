@@ -1,9 +1,9 @@
 <?php
 
-namespace Pterodactyl\Exceptions\Repository;
+namespace sneakypanel\Exceptions\Repository;
 
-use Pterodactyl\Exceptions\PterodactylException;
+use sneakypanel\Exceptions\sneakypanelException;
 
-class RepositoryException extends PterodactylException
+class RepositoryException extends sneakypanelException
 {
 }

@@ -1,12 +1,12 @@
 <?php
 
-namespace Pterodactyl\Http\Controllers\Api\Application\Nests;
+namespace sneakypanel\Http\Controllers\Api\Application\Nests;
 
-use Pterodactyl\Models\Nest;
-use Pterodactyl\Contracts\Repository\NestRepositoryInterface;
-use Pterodactyl\Transformers\Api\Application\NestTransformer;
-use Pterodactyl\Http\Requests\Api\Application\Nests\GetNestsRequest;
-use Pterodactyl\Http\Controllers\Api\Application\ApplicationApiController;
+use sneakypanel\Models\Nest;
+use sneakypanel\Contracts\Repository\NestRepositoryInterface;
+use sneakypanel\Transformers\Api\Application\NestTransformer;
+use sneakypanel\Http\Requests\Api\Application\Nests\GetNestsRequest;
+use sneakypanel\Http\Controllers\Api\Application\ApplicationApiController;
 
 class NestController extends ApplicationApiController
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace Pterodactyl\Services\Servers;
+namespace sneakypanel\Services\Servers;
 
-use Pterodactyl\Models\Mount;
-use Pterodactyl\Models\Server;
+use sneakypanel\Models\Mount;
+use sneakypanel\Models\Server;
 
 class ServerConfigurationStructureService
 {

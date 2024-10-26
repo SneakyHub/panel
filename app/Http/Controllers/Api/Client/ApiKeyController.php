@@ -1,14 +1,14 @@
 <?php
 
-namespace Pterodactyl\Http\Controllers\Api\Client;
+namespace sneakypanel\Http\Controllers\Api\Client;
 
-use Pterodactyl\Models\ApiKey;
+use sneakypanel\Models\ApiKey;
 use Illuminate\Http\JsonResponse;
-use Pterodactyl\Facades\Activity;
-use Pterodactyl\Exceptions\DisplayException;
-use Pterodactyl\Http\Requests\Api\Client\ClientApiRequest;
-use Pterodactyl\Transformers\Api\Client\ApiKeyTransformer;
-use Pterodactyl\Http\Requests\Api\Client\Account\StoreApiKeyRequest;
+use sneakypanel\Facades\Activity;
+use sneakypanel\Exceptions\DisplayException;
+use sneakypanel\Http\Requests\Api\Client\ClientApiRequest;
+use sneakypanel\Transformers\Api\Client\ApiKeyTransformer;
+use sneakypanel\Http\Requests\Api\Client\Account\StoreApiKeyRequest;
 
 class ApiKeyController extends ClientApiController
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace Pterodactyl\Http\Requests\Admin\Settings;
+namespace sneakypanel\Http\Requests\Admin\Settings;
 
-use Pterodactyl\Http\Requests\Admin\AdminFormRequest;
+use sneakypanel\Http\Requests\Admin\AdminFormRequest;
 
 class AdvancedSettingsFormRequest extends AdminFormRequest
 {
@@ -15,21 +15,21 @@ class AdvancedSettingsFormRequest extends AdminFormRequest
             'recaptcha:enabled' => 'required|in:true,false',
             'recaptcha:secret_key' => 'required|string|max:191',
             'recaptcha:website_key' => 'required|string|max:191',
-            'pterodactyl:guzzle:timeout' => 'required|integer|between:1,60',
-            'pterodactyl:guzzle:connect_timeout' => 'required|integer|between:1,60',
-            'pterodactyl:client_features:allocations:enabled' => 'required|in:true,false',
-            'pterodactyl:client_features:allocations:range_start' => [
+            'sneakypanel:guzzle:timeout' => 'required|integer|between:1,60',
+            'sneakypanel:guzzle:connect_timeout' => 'required|integer|between:1,60',
+            'sneakypanel:client_features:allocations:enabled' => 'required|in:true,false',
+            'sneakypanel:client_features:allocations:range_start' => [
                 'nullable',
-                'required_if:pterodactyl:client_features:allocations:enabled,true',
+                'required_if:sneakypanel:client_features:allocations:enabled,true',
                 'integer',
                 'between:1024,65535',
             ],
-            'pterodactyl:client_features:allocations:range_end' => [
+            'sneakypanel:client_features:allocations:range_end' => [
                 'nullable',
-                'required_if:pterodactyl:client_features:allocations:enabled,true',
+                'required_if:sneakypanel:client_features:allocations:enabled,true',
                 'integer',
                 'between:1024,65535',
-                'gt:pterodactyl:client_features:allocations:range_start',
+                'gt:sneakypanel:client_features:allocations:range_start',
             ],
         ];
     }
@@ -40,11 +40,11 @@ class AdvancedSettingsFormRequest extends AdminFormRequest
             'recaptcha:enabled' => 'reCAPTCHA Enabled',
             'recaptcha:secret_key' => 'reCAPTCHA Secret Key',
             'recaptcha:website_key' => 'reCAPTCHA Website Key',
-            'pterodactyl:guzzle:timeout' => 'HTTP Request Timeout',
-            'pterodactyl:guzzle:connect_timeout' => 'HTTP Connection Timeout',
-            'pterodactyl:client_features:allocations:enabled' => 'Auto Create Allocations Enabled',
-            'pterodactyl:client_features:allocations:range_start' => 'Starting Port',
-            'pterodactyl:client_features:allocations:range_end' => 'Ending Port',
+            'sneakypanel:guzzle:timeout' => 'HTTP Request Timeout',
+            'sneakypanel:guzzle:connect_timeout' => 'HTTP Connection Timeout',
+            'sneakypanel:client_features:allocations:enabled' => 'Auto Create Allocations Enabled',
+            'sneakypanel:client_features:allocations:range_start' => 'Starting Port',
+            'sneakypanel:client_features:allocations:range_end' => 'Ending Port',
         ];
     }
 }

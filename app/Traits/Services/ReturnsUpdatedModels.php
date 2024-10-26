@@ -1,6 +1,6 @@
 <?php
 
-namespace Pterodactyl\Traits\Services;
+namespace sneakypanel\Traits\Services;
 
 trait ReturnsUpdatedModels
 {

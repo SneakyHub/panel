@@ -1,6 +1,6 @@
 <?php
 
-namespace Pterodactyl\Exceptions;
+namespace sneakypanel\Exceptions;
 
 class AutoDeploymentException extends \Exception
 {

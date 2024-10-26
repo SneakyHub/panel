@@ -1,9 +1,9 @@
 <?php
 
-namespace Pterodactyl\Models;
+namespace sneakypanel\Models;
 
 /**
- * Pterodactyl\Models\Setting.
+ * sneakypanel\Models\Setting.
  *
  * @property int $id
  * @property string $key

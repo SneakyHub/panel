@@ -1,28 +1,28 @@
 <?php
 
-namespace Pterodactyl\Console\Commands;
+namespace sneakypanel\Console\Commands;
 
 use Illuminate\Console\Command;
-use Pterodactyl\Console\Kernel;
+use sneakypanel\Console\Kernel;
 use Symfony\Component\Process\Process;
 use Symfony\Component\Console\Helper\ProgressBar;
 
 class UpgradeCommand extends Command
 {
-    protected const DEFAULT_URL = 'https://github.com/pterodactyl/panel/releases/%s/panel.tar.gz';
+    protected const DEFAULT_URL = 'https://github.com/sneakypanel/panel/releases/%s/panel.tar.gz';
 
     protected $signature = 'p:upgrade
         {--user= : The user that PHP runs under. All files will be owned by this user.}
         {--group= : The group that PHP runs under. All files will be owned by this group.}
         {--url= : The specific archive to download.}
-        {--release= : A specific Pterodactyl version to download from GitHub. Leave blank to use latest.}
+        {--release= : A specific sneakypanel version to download from GitHub. Leave blank to use latest.}
         {--skip-download : If set no archive will be downloaded.}';
 
-    protected $description = 'Downloads a new archive for Pterodactyl from GitHub and then executes the normal upgrade commands.';
+    protected $description = 'Downloads a new archive for sneakypanel from GitHub and then executes the normal upgrade commands.';
 
     /**
      * Executes an upgrade command which will run through all of our standard
-     * commands for Pterodactyl and enable users to basically just download
+     * commands for sneakypanel and enable users to basically just download
      * the archive and execute this and be done.
      *
      * This places the application in maintenance mode as well while the commands
@@ -173,7 +173,7 @@ class UpgradeCommand extends Command
         });
 
         $this->newLine(2);
-        $this->info('Panel has been successfully upgraded. Please ensure you also update any Wings instances: https://pterodactyl.io/wings/1.0/upgrading.html');
+        $this->info('Panel has been successfully upgraded. Please ensure you also update any Wings instances: https://sneakypanel.com/wings/1.0/upgrading.html');
     }
 
     protected function withProgress(ProgressBar $bar, \Closure $callback)

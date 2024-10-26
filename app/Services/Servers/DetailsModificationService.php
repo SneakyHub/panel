@@ -1,13 +1,13 @@
 <?php
 
-namespace Pterodactyl\Services\Servers;
+namespace sneakypanel\Services\Servers;
 
 use Illuminate\Support\Arr;
-use Pterodactyl\Models\Server;
+use sneakypanel\Models\Server;
 use Illuminate\Database\ConnectionInterface;
-use Pterodactyl\Traits\Services\ReturnsUpdatedModels;
-use Pterodactyl\Repositories\Wings\DaemonServerRepository;
-use Pterodactyl\Exceptions\Http\Connection\DaemonConnectionException;
+use sneakypanel\Traits\Services\ReturnsUpdatedModels;
+use sneakypanel\Repositories\Wings\DaemonServerRepository;
+use sneakypanel\Exceptions\Http\Connection\DaemonConnectionException;
 
 class DetailsModificationService
 {

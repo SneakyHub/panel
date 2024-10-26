@@ -1,6 +1,6 @@
 <?php
 
-namespace Pterodactyl\Http\Requests\Admin;
+namespace sneakypanel\Http\Requests\Admin;
 
 class BaseFormRequest extends AdminFormRequest
 {
