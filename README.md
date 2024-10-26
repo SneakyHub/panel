@@ -5,9 +5,9 @@
 ![GitHub Releases](https://img.shields.io/github/downloads/sneakypanel/panel/latest/total?style=for-the-badge)
 ![GitHub contributors](https://img.shields.io/github/contributors/sneakypanel/panel?style=for-the-badge)
 
-# sneakypanel Panel
+# SneakyPanel
 
-sneakypanel® is a free, open-source game server management panel built with PHP, React, and Go. Designed with security
+SneakyPanel ® is a free, open-source game server management panel built with PHP, React, and Go. Designed with security
 in mind, sneakypanel runs all game servers in isolated Docker containers while exposing a beautiful and intuitive
 UI to end users.
 
@@ -24,7 +24,7 @@ Stop settling for less. Make game servers a first class citizen on your platform
 
 ## Sponsors
 
-I would like to extend my sincere thanks to the following sponsors for helping fund sneakypanel's development.
+I would like to extend my sincere thanks to the following sponsors for helping fund SneakyPanel's development.
 [Interested in becoming a sponsor?](https://github.com/sponsors/matthewpi)
 
 | Company                                                                           | About                                                                                                                                                                                                                                           |
@@ -67,6 +67,6 @@ and there are plenty more games available provided by the community. Some of the
 
 ## License
 
-sneakypanel® Copyright © 2015 - 2022 Dane Everitt and contributors.
+SneakyPanel ® Copyright © 2023 - 2024 Sneaky and contributors.
 
 Code released under the [MIT License](./LICENSE.md).
