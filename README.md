@@ -1,7 +1,7 @@
 [![Logo Image](https://cdn.sneakypanel.com/logos/new/sneakypanel_logo.png)](https://sneakypanel.com)
 
 ![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/sneakypanel/panel/ci.yaml?label=Tests&style=for-the-badge&branch=1.0-develop)
-![Discord](https://img.shields.io/discord/:1299268245706113044)
+![Discord](https://img.shields.io/discord/1299268245706113044?label=Discord&logo=Discord&logoColor=white&style=for-the-badge)
 ![GitHub Releases](https://img.shields.io/github/downloads/sneakypanel/panel/latest/total?style=for-the-badge)
 ![GitHub contributors](https://img.shields.io/github/contributors/sneakypanel/panel?style=for-the-badge)
 
