@@ -2,7 +2,8 @@
 
 ![Discord](https://img.shields.io/discord/1299268245706113044?style=for-the-badge&logo=Discord&label=Discord)
 ![Newest Release](https://img.shields.io/github/v/release/SneakyHub/panel?display_name=release&style=for-the-badge)
-![GitHub contributors](https://img.shields.io/github/contributors/sneakypanel/panel?style=for-the-badge)
+![GitHub contributors](https://img.shields.io/github/contributors/SneakyHub/panel?style=for-the-badge)
+
 
 # SneakyPanel
 
