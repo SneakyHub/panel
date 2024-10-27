@@ -1,7 +1,7 @@
 <?php
 
-namespace Pterodactyl\Exceptions;
+namespace sneakypanel\Exceptions;
 
-class PterodactylException extends \Exception
+class sneakypanelException extends \Exception
 {
 }

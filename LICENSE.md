@@ -1,7 +1,7 @@
 # The MIT License (MIT)
 
 ```
-SneakyPanel ®
+sneakypanel®
 Copyright © Sneaky <sneaky@sneakypanel.com> and contributors
 
 Permission is hereby granted, free of charge, to any person obtaining a copy

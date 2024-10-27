@@ -1,4 +1,4 @@
-// Copyright (c) 2015 - 2017 DaneSneaky <sneaky@sneakypanel.com>
+// Copyright (c) 2023 - 2024 Sneaky <sneaky@sneakypanel.com>
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
@@ -38,8 +38,8 @@ $(document).ready(function () {
             }, function () {
                 $.ajax({
                     type: 'POST',
-                    url: Pterodactyl.meta.saveFile,
-                    headers: { 'X-CSRF-Token': Pterodactyl.meta.csrfToken, },
+                    url: sneakypanel.meta.saveFile,
+                    headers: { 'X-CSRF-Token': sneakypanel.meta.csrfToken, },
                     data: {
                         file: 'eula.txt',
                         contents: 'eula=true'
