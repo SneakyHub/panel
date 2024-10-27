@@ -1,5 +1,5 @@
 /**
- * Pterodactyl - Panel
+ * sneakypanel - Panel
  * Copyright (c) 2023 - 2024 Sneaky <sneaky@sneakypanel.com>
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -51,45 +51,45 @@
     z-index: -1;
 }
 
-.pterodactyl-login-box {
+.sneakypanel-login-box {
     background: rgba(0, 0, 0, 0.25);
     border-radius: 3px;
     padding: 20px;
 }
 
-.pterodactyl-login-input > input {
+.sneakypanel-login-input > input {
     background: rgba(0, 0, 0, 0.4);
     border: 1px solid #000;
     border-radius: 2px;
     color: #fff;
 }
 
-.pterodactyl-login-input > .form-control-feedback {
+.sneakypanel-login-input > .form-control-feedback {
     color: #fff;
 }
 
-.pterodactyl-login-button--main {
+.sneakypanel-login-button--main {
     background: rgba(0, 0, 0, 0.4);
     border: 1px solid #000;
     border-radius: 2px;
     color: #fff;
 }
 
-.pterodactyl-login-button--main:hover {
+.sneakypanel-login-button--main:hover {
     background: rgba(0, 0, 0, 0.7);
     border: 1px solid #000;
     border-radius: 2px;
     color: #fff;
 }
 
-.pterodactyl-login-button--left {
+.sneakypanel-login-button--left {
     background: rgba(255, 255, 255, 0.4);
     border: 1px solid rgba(255, 255, 255, 0.6);
     border-radius: 2px;
     color: #fff;
 }
 
-.pterodactyl-login-button--left:hover {
+.sneakypanel-login-button--left:hover {
     background: rgba(255, 255, 255, 0.6);
     border: 1px solid rgba(255, 255, 255, 0.8);
     border-radius: 2px;
