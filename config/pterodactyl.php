@@ -92,7 +92,7 @@ return [
 
     'cdn' => [
         'cache_time' => 60,
-        'url' => 'https://cdn.sneakypanel.io/releases/latest.json',
+        'url' => 'https://cdn.sneakypanel.com/releases/latest.json',
     ],
 
     /*

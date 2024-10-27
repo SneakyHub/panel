@@ -371,7 +371,7 @@ _This release should not be used, please use `1.6.5`. It has been pulled from ou
 ### Fixed
 * Fixes server build modifications not being properly persisted to the database when edited.
 * Correctly exposes the `oom_disabled` field in the `build` limits block for a server build so that Wings can pick it up.
-*
+* 
 ## v1.6.0
 ### Fixed
 * Fixes array merging logic for server transfers that would cause a 500 error to occur in some scenarios.
@@ -1209,12 +1209,12 @@ the response from the server `GET` endpoint.
 * Blocked out the `Reinstall` button for servers that have failed installation to avoid confusion and bugs causing the daemon to break.
 * Updated dependencies, listed below.
 ```
-aws/aws-sdk-php (3.26.5 => 3.29.7)
-laravel/framework (v5.4.21 => v5.4.27)
-barryvdh/laravel-debugbar (v2.3.2 => v2.4.0)
+aws/aws-sdk-php (3.26.5 => 3.29.7)       
+laravel/framework (v5.4.21 => v5.4.27)        
+barryvdh/laravel-debugbar (v2.3.2 => v2.4.0)     
 fideloper/proxy (3.3.0 => 3.3.3)
-igaster/laravel-theme (v1.14 => v1.16)
-laravel/tinker (v1.0.0 => v1.0.1)
+igaster/laravel-theme (v1.14 => v1.16)    
+laravel/tinker (v1.0.0 => v1.0.1)  
 spatie/laravel-fractal (4.0.0 => 4.0.1)
 ```
 

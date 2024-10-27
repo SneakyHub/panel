@@ -32,7 +32,7 @@ jobs:
           REF: ${{ github.ref }}
         run: |
           BRANCH=release/${REF:10}
-          git config --local user.email "ci@sneakypanel.io"
+          git config --local user.email "ci@sneakypanel.com"
           git config --local user.name "sneakypanel CI"
           git checkout -b $BRANCH
           git push -u origin $BRANCH
